@@ -170,7 +170,7 @@ HOME SECTION STYLES
     color: #fff;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5cm;
+    font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
@@ -227,7 +227,7 @@ Contact STYLES
     margin: 0 auto;
     color: #13161B;
     font-weight: 500;
-    font-size: 1.3cm;
+    font-size: 1.3em;
     letter-spacing: 0pt;
     word-spacing: 0pt;
 }
@@ -238,7 +238,7 @@ Contact STYLES
     margin: 0 auto;
     color: #13161B;
     font-weight: 900;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-variant: small-caps;
     letter-spacing: 4pt;
     word-spacing: .3pt;
@@ -276,7 +276,7 @@ Contact STYLES
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
     border-left: 1px solid #090B0D;
-    margin: 10px 1cm;
+    margin: 10px 1em;
     border-radius: 7px;
     background: #13161B;
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
@@ -293,6 +293,7 @@ Contact STYLES
 
 .terms {
     margin: 30px 1px 0 0;
+    margin-top:13%;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;

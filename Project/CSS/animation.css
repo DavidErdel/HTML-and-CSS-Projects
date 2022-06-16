@@ -86,7 +86,7 @@ GALLERY SECTION ANIMATION
 /*==================================
 Photo Overlay Transitions
 ==================================*/
-.photo-overlay {
+.photo-overlay:hover {
     opacity: 0;
     transition: opacity .5s;
     border-radius: 10px;
