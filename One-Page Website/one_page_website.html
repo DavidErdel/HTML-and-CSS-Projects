@@ -4,290 +4,102 @@
 		<meta charset="utf-8">
 		<title>Ecuador to Qatar!</title>
 		<link rel="stylesheet" href="./CSS/one_page_website.css">
-	</head>
-	<body>
-	
-		<!-- NAV -->
+	</head
+	>
+	<!-- NAV -->
+	<div>
+		<div>
+			<ul>
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#players" id="link"><li>KEY PLAYERS</li></a>
+				<a href="#key_games" id="link"><li>KEY GAMES</li></a>
+				<a href="#tickets" id="link"><li>TICKETS</li></a>
+			</ul>
+		</div>
+	</div>
+	<!--END NAV-->
+
+	<!--HOME-->
+	<div id="home">
 		<div>
 			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#players" id="link"><li>PLAYERS</li></a>
-					<a href="#key_games" id="link"><li>KEY GAMES</li></a>
-					<a href="#tickets" id="link"><li>TICKETS</li></a>
-				</ul>
+				<span>This is a website about the Ecuadorian national soccer team that qualified to the 2022 World Cup.</span>
 			</div>
 		</div>
-		<!--END NAV-->
-		
-		<!--HOME-->
-		<div id="home">
-			<div>
-				<div>
-					<span>This is a website about the Ecuadorian national soccer team that qualified to the 2022 World Cup.</span>
-				</div>
-			</div>
-		</div>
-		<!--END HOME -->
-		
-		<!-- PLAYERS -->
-		<section id="players">
-			<div class="photo-container">
-				<h1>PLAYERS</h1>
-				<div>
-				
-					<!--PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_1.jpg" alt="Starting keeper">
-							<div>
-								<p>Alexander Domínguez</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 1 -->
-					
-					<!--PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_2.jpg" alt="Backup keeper">
-							<div>
+	</div>
+	<!--END HOME -->
 
-								<p>Hernán Galíndez</p>
-							</div>
-						</div>
+	<body>
+		<div id="players">
+				<h2 style="text-align:center">Key Players</h2>
+
+				<div class="row">
+					<div class="column">
+						<img src="./Images/Thumb/Torres_small.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 					</div>
-					<!--END PHOTO-CONTAINER 2 -->
-					
-					<!--PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_3.jpg" alt="Starting right-back">
-							<div>
-								<p>Ángelo Preciado</p>
-							</div>
-						</div>
+					<div class="column">
+						<img src="./Images/Thumb/Pervis_small.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
 					</div>
-					<!--END PHOTO-CONTAINER 3 -->
-					
-					<!--PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_4.jpg" alt="Backup right-back">
-							<div>
-								<p>Byron Castillo</p>
-							</div>
-						</div>
+					<div class="column">
+						<img src="./Images/Thumb/Gruezo_small.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 					</div>
-					<!--END PHOTO-CONTAINER 4 -->
-					
-					<!--PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_5.jpg" alt="Starting center-back">
-							<div>
-								<p>Félix Torres</p>
-							</div>
-						</div>
+					<div class="column">
+						<img src="./Images/Thumb/Caicedo_small.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 					</div>
-					<!--END PHOTO-CONTAINER 5 -->
-					
-					<!--PHOTO-CONTAINER 6 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_6.jpg" alt="Starting center-back">
-							<div>
-								<p>Piero Hincapié</p>
-							</div>
-						</div>
+				</div>
+
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+
+					<div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="./Images/Thumb/Torres.jpg" style="width:100%">
 					</div>
-					<!--END PHOTO-CONTAINER 6 -->
-					
-					<!--PHOTO-CONTAINER 7 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_7.jpg" alt="Backup center-back">
-							<div>
-								<p>Robert Arboleda</p>
-							</div>
-						</div>
+
+					<div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="./Images/Thumb/Pervis.png" style="width:100%">
 					</div>
-					<!--END PHOTO-CONTAINER 7 -->
-					
-					<!--PHOTO-CONTAINER 8 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_8.jpg" alt="Backup center-back">
-							<div>
-								<p>Xavier Arreaga</p>
-							</div>
-						</div>
+
+					<div class="mySlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="./Images/Thumb/Gruezo.png" style="width:100%">
 					</div>
-					<!--END PHOTO-CONTAINER 8 -->
 					
-					<!--PHOTO-CONTAINER 9 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_9.jpg" alt="Starting left-back">
-							<div>
-								<p>Pervis Estupiñán</p>
-							</div>
-						</div>
+					<div class="mySlides">
+					<div class="numbertext">4 / 4</div>
+					<img src="./Images/Thumb/Caicedo.png" style="width:100%">
 					</div>
-					<!--END PHOTO-CONTAINER 9 -->
 					
-					<!--PHOTO-CONTAINER 10 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_10.jpg" alt="Backup left-back">
-							<div>
-								<p>Diego Palacios</p>
-							</div>
-						</div>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					<div class="caption-container">
+					<p id="caption"></p>
 					</div>
-					<!--END PHOTO-CONTAINER 10 -->
-					
-					<!--PHOTO-CONTAINER 11 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_11.jpg" alt="Starting right-mid">
-							<div>
-								<p>Ángel Mena</p>
-							</div>
-						</div>
+
+
+					<div class="column">
+					<img class="demo cursor" src="./Images/Thumb/Torres.jpg" style="width:100%" onclick="currentSlide(1)" alt="Félix Torres">
 					</div>
-					<!--END PHOTO-CONTAINER 11 -->
-					
-					<!--PHOTO-CONTAINER 12 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_12.jpg" alt="Backup right-mid">
-							<div>
-								<p>Gonzalo Plata</p>
-							</div>
-						</div>
+					<div class="column">
+					<img class="demo cursor" src="./Images/Thumb/Pervis.png" style="width:100%" onclick="currentSlide(2)" alt="Pervis Estupiñán">
 					</div>
-					<!--END PHOTO-CONTAINER 12 -->
-					
-					<!--PHOTO-CONTAINER 13 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_13.jpg" alt="Starting center-mid">
-							<div>
-								<p>Carlos Gruezo</p>
-							</div>
-						</div>
+					<div class="column">
+					<img class="demo cursor" src="./Images/Thumb/Gruezo.png" style="width:100%" onclick="currentSlide(3)" alt="Carlos Gruezo">
 					</div>
-					<!--END PHOTO-CONTAINER 13 -->
-					
-					<!--PHOTO-CONTAINER 14 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_14.jpg" alt="Backup center-mid">
-							<div>
-								<p>Jhegson Méndez</p>
-							</div>
-						</div>
+					<div class="column">
+					<img class="demo cursor" src="./Images/Thumb/Caicedo.png" style="width:100%" onclick="currentSlide(4)" alt="Moisés Caicedo">
 					</div>
-					<!--END PHOTO-CONTAINER 14 -->
-					
-					<!--PHOTO-CONTAINER 15 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_15.jpg" alt="Starting center-mid.">
-							<div>
-								<p>Moisés Caicedo</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 15 -->
-					
-					<!--PHOTO-CONTAINER 16 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_16.jpg" alt="Backup center-mid">
-							<div>
-								<p>Alan Franco</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 16 -->
-					
-					<!--PHOTO-CONTAINER 17 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_17.jpg" alt="Starting left-mid">
-							<div>
-								<p>Ayrton Preciado</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 17 -->
-					
-					<!--PHOTO-CONTAINER 18 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_18.jpg" alt="Backup left-mid">
-							<div>
-								<p>Jeremy Sarmiento</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 18 -->
-					
-					<!--PHOTO-CONTAINER 19 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_19.jpg" alt="Starting forward">
-							<div>
-								<p>Enner Valencia</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 19 -->
-					
-					<!--PHOTO-CONTAINER 20 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_20.jpg" alt="Starting forward">
-							<div>
-								<p>Michael Estrada</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 20 -->
-					
-					<!--PHOTO-CONTAINER 21 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_21.jpg" alt="Backup forward">
-							<div>
-								<p>Jordy Caicedo</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 21 -->
-					
-					<!--PHOTO-CONTAINER 22 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_22.jpg" alt="Backup forward">
-							<div>
-								<p>Leonardo Campana</p>
-							</div>
-						</div>
-					</div>
-					<!--END PHOTO-CONTAINER 22 -->
-					
 				</div>
 			</div>
-		</section>
-		<!--END PLAYERS-->
-		
+		</div>
+
 		<!-- KEY GAMES -->
 		<section id="key_games">
 			<div>
-				<h1>KEY GAMES</h1>
+				<h2 style="text-align:center">Key Games</h2>
 				<div>
 				
 					<!--VIDEO-CONTAINER 1 -->
@@ -389,5 +201,9 @@
 		</div>
 		<!--END FOOTER-->
 		
+	</body>
+</html>
+
+		<script src="./JS/one_page_website.js"></script>
 	</body>
 </html>

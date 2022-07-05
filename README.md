@@ -24,4 +24,4 @@ PROJECTS
     
     PORTFOLIO SITE
 
-    This is my personal homepage where I will put links to display my coding portfolio. It is styled using CSS and contains a navbar, image containers, a form, a   background video, and various photo effects.
+    This is my personal homepage where I will put links to display my coding portfolio. It is styled using CSS and contains a navbar, image containers, a form, a background video, and various photo effects.
